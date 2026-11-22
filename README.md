@@ -2,6 +2,8 @@
 
 **An interactive 118-element industrial periodic table & hard-tech builder opportunity mapper.**
 
+🚀 **Live Demo:** [https://derejealemu.github.io/elemental-foundry/](https://derejealemu.github.io/elemental-foundry/)
+
 Elemental Foundry reframes the periodic table through an industrial, geopolitical, and commercialization lens—helping founders, researchers, and mineral-tech builders explore what each element is used for, how and where it is extracted and refined, where global bottlenecks sit, and where novel chemistry, electrochemistry, biomining, separation, or recycling processes have real startup leverage.
 
 ---
