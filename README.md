@@ -75,6 +75,11 @@ elemental-foundry/
 
 Production shares, price ranges, and market sizes are indicative industrial benchmarks synthesized from public USGS Mineral Commodity Summaries, IEA Critical Minerals, and EU CRM reference baselines for strategic exploration and thesis generation. Always verify live spot pricing, regional permitting, and off-take terms before committing project capital.
 
-## Status
+## Contributing
 
-Currently **private** while iterating on dataset depth, scoring calibration, and UI polish ahead of a planned open-source release.
+Contributions, data corrections, updated USGS/IEA production figures, and new innovation angles are welcome! Open an issue or submit a pull request—please run `npm run verify-data && npm run build` before submitting changes.
+
+## License
+
+Licensed under the [Apache License, Version 2.0](LICENSE).
+

@@ -2,7 +2,20 @@
   "name": "elemental-foundry",
   "private": true,
   "version": "0.1.0",
+  "license": "Apache-2.0",
   "description": "Interactive 118-element industrial periodic table and hard-tech builder opportunity mapper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/derejealemu/elemental-foundry.git"
+  },
+  "keywords": [
+    "periodic-table",
+    "critical-minerals",
+    "supply-chain",
+    "hard-tech",
+    "materials-science",
+    "opportunity-mapper"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite --port 5173 --host 127.0.0.1",
