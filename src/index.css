@@ -1,0 +1,85 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg-canvas: #f5f4ef;
+  --bg-surface: #ffffff;
+  --bg-elevated: #eceae2;
+  --bg-subtle: #e5e2d8;
+  --border-default: #d6d2c6;
+  --border-strong: #b8b2a2;
+  --text-primary: #14171c;
+  --text-secondary: #48505c;
+  --text-muted: #6c7584;
+  --accent-primary: #b45309;
+  --accent-primary-soft: rgba(180, 83, 9, 0.12);
+  --accent-secondary: #0f766e;
+  --accent-danger: #b91c1c;
+  --accent-success: #15803d;
+  --accent-info: #1d4ed8;
+  --ring-focus: #d97706;
+}
+
+.dark {
+  --bg-canvas: #0b0e13;
+  --bg-surface: #121720;
+  --bg-elevated: #181f2b;
+  --bg-subtle: #1f2836;
+  --border-default: #263142;
+  --border-strong: #3a4961;
+  --text-primary: #eef2f7;
+  --text-secondary: #b0bccd;
+  --text-muted: #7c8ba1;
+  --accent-primary: #f59e0b;
+  --accent-primary-soft: rgba(245, 158, 11, 0.14);
+  --accent-secondary: #14b8a6;
+  --accent-danger: #ef4444;
+  --accent-success: #22c55e;
+  --accent-info: #3b82f6;
+  --ring-focus: #f59e0b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-mono-tabular {
+  font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom slim scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-canvas);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* Accessible focus outline */
+:focus-visible {
+  outline: 2px solid var(--ring-focus);
+  outline-offset: 2px;
+}
+
